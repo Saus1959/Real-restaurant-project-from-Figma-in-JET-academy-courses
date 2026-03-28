@@ -7,6 +7,8 @@
 
 body {
   background-image: url(../images/bg.png);
+  overflow-x: hidden;
+  max-width: 100%;
 }
 
 .headline-section {
@@ -50,7 +52,7 @@ span {
 }
 
 .banner {
-  width: 1212px;
+  width: calc(100%-160px);
   height: 500px;
   margin: 0 80px;
   background-image: url(../images/azerbaijani-lyulya-kebab-with-potatoes-vegetables\ 1.png);
@@ -499,15 +501,19 @@ span {
   width: 100%;
   margin: 80px;
   background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
 }
 
 .map-section {
-  width: 1200px;
+  width: 100%;
   position: relative;
 }
 
 .map {
-  width: 1200px;
+  width: 90%;
   height: 519px;
 }
 
