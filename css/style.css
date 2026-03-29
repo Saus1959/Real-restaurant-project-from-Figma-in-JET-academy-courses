@@ -638,7 +638,6 @@ span {
     align-items: flex-start;
     justify-content: center;
     gap: 20px;
-    margin-left: 50px;
   }
 
   .main-logo {
@@ -648,6 +647,7 @@ span {
   .main-contact {
     margin-right: 20px;
     width: auto;
+    margin-left: 20px;
   }
 
   .main-text {
