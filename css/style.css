@@ -719,6 +719,10 @@ span {
     height: auto;
   }
 
+  .price-circle {
+    top: 259px;
+  }
+
   /* BEVERAGES */
   .beverages-section {
     height: auto;
